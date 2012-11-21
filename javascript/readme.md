@@ -1,8 +1,6 @@
 ![Nucleo logo](http://elnucleo.co/logoSmall.png)
 
-# Guía de JavaScript() {
-
-*A mostly reasonable approach to JavaScript*
+# JavaScript Style Guide
 
 
 ## <a name='TOC'>Table of Contents</a>
@@ -1252,13 +1250,13 @@
 
   **[[⬆]](#TOC)**
 
-## <a name='guide-guide'>The JavaScript Style Guide Guide</a>
+## <a name='guide-guide'>The JavaScript Style Guide</a>
 
-  - [Reference](//github.com/airbnb/javascript/wiki/The-JavaScript-Style-Guide-Guide)
+  - [Inspired by AirBnB Style Guide](https://github.com/airbnb/javascript)
 
 ## <a name='authors'>Contributors</a>
 
-  - [View Contributors](https://github.com/airbnb/javascript/graphs/contributors)
+  - [View Contributors](https://github.com/NucleoDigital/guides/graphs/contributors)
 
 
 ## <a name='license'>License</a>
@@ -1287,5 +1285,3 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 **[[⬆]](#TOC)**
-
-# };
