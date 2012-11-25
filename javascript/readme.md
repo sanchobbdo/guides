@@ -67,7 +67,7 @@
     console.log(foo[0], bar[0]); // => 9, 9
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 ##Objects
 
@@ -98,7 +98,7 @@
       hidden: true
     };
     ```
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 ##Arrays
 
@@ -130,7 +130,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Strings
@@ -218,7 +218,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Functions
@@ -274,7 +274,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 
@@ -310,7 +310,7 @@
     var isJedi = getProp('jedi');
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Variables
@@ -419,7 +419,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Hoisting
@@ -509,7 +509,7 @@
 
   - For more information refer to [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting) by [Ben Cherry](http://www.adequatelygood.com/)
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 
@@ -558,7 +558,7 @@
 
   - For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Blocks
@@ -587,7 +587,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Comments
@@ -654,7 +654,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Whitespace
@@ -750,7 +750,7 @@
       .call(tron.led);
   ```
 
-  **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 ##Leading Commas
 
@@ -784,7 +784,7 @@
     };
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Semicolons
@@ -811,7 +811,7 @@
     })();
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Type Coercion
@@ -865,7 +865,7 @@
     var hasAge = !!age;
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Naming Conventions
@@ -951,7 +951,7 @@
     };
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Accessors
@@ -1005,7 +1005,7 @@
     };
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Constructors
@@ -1090,7 +1090,7 @@
     };
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Modules
@@ -1120,7 +1120,7 @@
     }(this);
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##jQuery
@@ -1178,14 +1178,14 @@
     $('.sidebar').find('ul').hide();
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##ECMAScript 5 Compatability
 
   - Refer to [Kangax](https://twitter.com/kangax/)'s ES5 [compatibility table](http://kangax.github.com/es5-compat-table/)
 
-  **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Testing
@@ -1198,7 +1198,7 @@
     }
     ```
 
-    **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Performance
@@ -1209,7 +1209,7 @@
   - [jQuery Find vs Context, Selector](http://jsperf.com/jquery-find-vs-context-sel/13)
   - Loading...
 
-  **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 
 ##Resources
@@ -1250,7 +1250,7 @@
   - [Dustin Diaz](http://dustindiaz.com/)
   - [net.tutsplus](http://net.tutsplus.com/?s=javascript)
 
-  **[[⬆]](#table-of-contents)**
+**[[⬆]](#table-of-contents)**
 
 ##References
 
