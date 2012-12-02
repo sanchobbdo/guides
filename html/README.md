@@ -241,7 +241,6 @@ To be clear, using ID attributes in your HTML can be a good thing and in some ca
 
 /* Recommended */
 <div class="nav"></div>
-
 ```
 
 ###Multimedia fallback
@@ -411,7 +410,6 @@ The ```alt``` attribute contains the text that should be displayed when the imag
 
 ```html
 <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle">
-
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -422,7 +420,6 @@ Most browsers will display the value of an ```img``` element’s ```title``` att
 
 ```html
 <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" title="What I see when I look out of my window; the castle was one reason to move there.">
-
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -433,7 +430,6 @@ If the image is a very complex image, like for example a chart, you can offer a 
 
 ```html
 <img src="chart.png" width="450" height="150" alt="Chart showing the fruit consumption amongst under 15 year olds. Most children ate Pineapples, followed by Pears" longdesc="fruitconsumption.html">
-
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -444,7 +440,6 @@ When the user agent finds an img element in the HTML, it starts loading the imag
 
 ```html
 <img src="balconyview.jpg" alt="View from my balcony, showing a row of houses, trees and a castle" width="400" height="186">
-
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -459,7 +454,6 @@ Use alphanumerics only in page names. That is, a-z, 0-9. The only exceptions are
 Never use spaces in the file name of anything destined for the web. Replace spaces with hyphens.
 
 Use lowercase exclusively when naming files (some web servers are sensitive to case).
-
 ```
 <!-- Not recommended -->
 frontPage.html
@@ -470,7 +464,6 @@ main page.html
 about.html
 porftolio.html
 contact.html
-
 ```
 
 When planning a site, create a naming convention for pages and stick to it without exception.
