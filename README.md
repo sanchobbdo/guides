@@ -10,7 +10,7 @@ If you're visiting from the internet, feel free to learn from this styles. This 
 
 ##Guides:
 
-- ####[HTML Style Guide](https://github.com/NucleoDigital/guides/blob/master/html/readme.md)
+- ####[HTML Style Guide](https://github.com/NucleoDigital/guides/blob/master/html/README.md)
 
 - ####[CSS Style Guide](https://github.com/NucleoDigital/guides/blob/master/css/readme.md)
 
