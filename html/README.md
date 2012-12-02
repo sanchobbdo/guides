@@ -67,7 +67,6 @@ HTML
 
 <!-- Recommended -->
 <script src="//www.google.com/js/gweb/analytics/autotrack.js"></script>
-
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -483,6 +482,7 @@ Always title a page the moment you create it, using a titling convention you hav
 ##Resources
 
   - [Introduction to The Web Standards on Opera Developers](http://dev.opera.com/articles/view/1-introduction-to-the-web-standards-cur/)
+  - [The Road To Reusable HTML Components](http://coding.smashingmagazine.com/2012/10/23/road-reusable-html-components/)
 
 ##References
 - Based on [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
