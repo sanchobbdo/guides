@@ -236,10 +236,10 @@ Using HTML according to its purpose is important for accessibility, reuse, and c
 To be clear, using ID attributes in your HTML can be a good thing and in some cases, absolutely necessary. For example, they provide efficient hooks for JavaScript. For CSS, however, ID selectors aren’t necessary as the performance difference between ID and class selectors is nearly non-existent and can make styling more complicated due to increasing specificity.
 
 ```html
-/* Not recommended */
+<!-- Not recommended -->
 <div id="nav"></div>
 
-/* Recommended */
+<!-- Recommended -->
 <div class="nav"></div>
 ```
 
