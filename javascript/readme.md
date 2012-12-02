@@ -1,4 +1,4 @@
-![Nucleo logo](http://elnucleo.co/logoSmall.png)
+![Nucleo logo](http://dl.dropbox.com/u/2402696/external/elnucleo-logo.png)
 
 # JavaScript Style Guide
 

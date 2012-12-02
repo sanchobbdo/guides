@@ -1,4 +1,4 @@
-![Nucleo logo](http://elnucleo.co/logoSmall.png)
+![Nucleo logo](http://dl.dropbox.com/u/2402696/external/elnucleo-logo.png)
 
 ##Welcome to *El Núcleo Digital* Styleguides
 
@@ -10,7 +10,9 @@ If you're visiting from the internet, feel free to learn from this styles. This 
 
 ##Guides:
 
-- ####[HTML/CSS Style Guide](https://github.com/NucleoDigital/guides/blob/master/css/readme.md)
+- ####[HTML Style Guide](https://github.com/NucleoDigital/guides/blob/master/html/readme.md)
+
+- ####[CSS Style Guide](https://github.com/NucleoDigital/guides/blob/master/css/readme.md)
 
 - ####[JavaScript Style Guide](https://github.com/NucleoDigital/guides/blob/master/javascript/readme.md)
 
