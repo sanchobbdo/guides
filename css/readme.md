@@ -91,7 +91,6 @@ To be clear, using ID attributes in your HTML can be a good thing and in some ca
 
 /* Recommended */
 .header{ color: red; }
-
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -464,18 +463,13 @@ If possible, group style sheet sections together by using comments. Separate sec
   - [WordPress CSS Coding Standards](http://make.wordpress.org/core/handbook/coding-standards/css/)
   - [Jonathan Snook's Scalable and Modular Architecture for CSS](http://smacss.com/)
 
-**[[⬆]](#table-of-contents)**
-
 ##References
-- Based on [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
-**[[⬆]](#table-of-contents)**
+- Based on [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
 ##Contributors
 
   - [View Contributors](https://github.com/NucleoDigital/guides/graphs/contributors)
-
-**[[⬆]](#table-of-contents)**
 
 ##License
 
@@ -488,5 +482,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-**[[⬆]](#table-of-contents)**

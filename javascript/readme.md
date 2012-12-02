@@ -1207,10 +1207,8 @@
   - [Try/Catch Cost In a Loop](http://jsperf.com/try-catch-in-loop-cost)
   - [Bang Function](http://jsperf.com/bang-function)
   - [jQuery Find vs Context, Selector](http://jsperf.com/jquery-find-vs-context-sel/13)
-  - Loading...
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Resources
 
@@ -1250,8 +1248,6 @@
   - [Dustin Diaz](http://dustindiaz.com/)
   - [net.tutsplus](http://net.tutsplus.com/?s=javascript)
 
-**[[⬆]](#table-of-contents)**
-
 ##References
 
   - Based and inspired on [AirBnB Style Guide](https://github.com/airbnb/javascript)
@@ -1272,5 +1268,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-**[[⬆]](#table-of-contents)**
