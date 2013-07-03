@@ -146,10 +146,10 @@ To be clear, using ID attributes in your HTML can be a good thing and in some ca
 
 ```html
 <!-- Not recommended -->
-<div id="nav"></div>
+<nav id="nav"></nav>
 
 <!-- Recommended -->
-<div class="nav"></div>
+<nav class="nav"></nav>
 ```
 
 ###Multimedia fallback
