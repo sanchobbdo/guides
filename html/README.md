@@ -1,3 +1,5 @@
+![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
+
 #HTML Style Guide
 
 *version 1.0.0*
@@ -7,13 +9,7 @@
 1. [**General Style Rules**](#general-style-rules)
 	- [Protocol](#protocol)
 1. [**General Formatting Rules**](#general-formatting-rules)
-	- [Indentation](#indentation)
 	- [Capitalization](#capitalization)
-	- [Trailing whitespace](#trailing-whitespace)
-1. [**General Meta Rules**](#general-meta-rules)
-	- [Encoding](#encoding)
-	- [Comments](#comments)
-	- [Action items](#action-items)
 1. [**HTML Style Rules**](#html-style-rules)
 	- [Document type](#document-type)
 	- [HTML validity](#html-validity)
@@ -71,30 +67,7 @@ HTML
 
 ##General Formatting Rules
 
-###Indentation
-
-Indent by 4 spaces at a time.
-
-Don’t use tabs or mix tabs and spaces for indentation.
-
-HTML
-
-```html
-<ul>
-∙∙∙∙<li>Fantastic
-∙∙∙∙<li>Great
-</ul>
-```
-
-CSS
-
-```css
-.example {
-∙∙∙∙color: blue;
-}
-```
-
-**[[⬆]](#table-of-contents)**
+> Please also review our [**General Style Guide**](../general/readme.md) along with this one.
 
 ###Capitalization
 
@@ -108,67 +81,6 @@ All code has to be lowercase: This applies to element names, attributes, attribu
 
 <!-- Recommended -->
 <img src="google.png" alt="Google">
-```
-
-**[[⬆]](#table-of-contents)**
-
-###Trailing whitespace
-
-Remove trailing white spaces.
-
-Trailing white spaces are unnecessary and can complicate diffs.
-
-```html
-<!-- Not recommended -->
-<p>What?∙∙∙∙
-
-<!-- Recommended -->
-<p>Yes please.
-```
-
-**[[⬆]](#table-of-contents)**
-
-##General Meta Rules
-
-###Encoding
-
-Use UTF-8 (no BOM).
-
-Make sure your editor uses UTF-8 as character encoding, without a byte order mark.
-
-Specify the encoding in HTML templates and documents via ```<meta charset="utf-8">```. Do not specify the encoding of style sheets as these assume UTF-8.
-
-**[[⬆]](#table-of-contents)**
-
-###Comments
-
-Explain code as needed, where possible.
-
-Use comments to explain code: What does it cover, what purpose does it serve, why is respective solution used or preferred?
-
-> This item is optional as it is not deemed a realistic expectation to always demand fully documented code. Mileage may vary heavily for HTML and CSS code and depends on the project’s complexity.
-
-**[[⬆]](#table-of-contents)**
-
-###Action items
-
-Mark todos and action items with ```TODO```.
-
-Highlight todos by using the keyword ```TODO``` only, not other common formats like ```@@```.
-
-Append a contact (username or mailing list) in parentheses as with the format ```TODO(contact)```.
-
-Append action items after a colon as in ```TODO: action item```.
-
-```html
-{# TODO(john.doe): revisit centering #}
-<center>Test</center>
-
-<!-- TODO: remove optional tags -->
-<ul>
-  <li>Apples</li>
-  <li>Oranges</li>
-</ul>
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -289,7 +201,7 @@ Separating structure from presentation from behavior is important for maintenanc
 <title>My first CSS-only redesign</title>
 <link rel="stylesheet" href="default.css">
 <h1>My first CSS-only redesign</h1>
-<p>I’ve read about this on a few sites but today I’m actually doing it: separating concerns and avoiding anything in the HTML of my website that is presentational.
+<p>I’ve read about this on a few sites but today I’m actually doing it: separating concerns and avoiding anything in the HTML of my website that is presentational.</p>
 <p>It’s awesome!</p>
 ```
 
@@ -352,22 +264,26 @@ Also, indent them if they are child elements of a block, list, or table element.
 
 ```html
 <blockquote>
-  <p><em>Space</em>, the final frontier.</p>
+    <p><em>Space</em>, the final frontier.</p>
 </blockquote>
 <ul>
-  <li>Moe
-  <li>Larry
-  <li>Curly
+    <li>Moe</li>
+    <li>Larry</li>
+    <li>Curly</li>
 </ul>
 <table>
-  <thead>
-    <tr>
-      <th scope="col">Income
-      <th scope="col">Taxes
-  <tbody>
-    <tr>
-      <td>$ 5.00
-      <td>$ 4.50
+    <thead>
+      <tr>
+        <th scope="col">Income</th>
+        <th scope="col">Taxes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>$ 5.00</td>
+        <td>$ 4.50</td>
+      </tr>
+    </tbody>
 </table>
 ```
 

@@ -1,3 +1,5 @@
+![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
+
 #CSS Style Guide
 
 *version 1.0.0*
@@ -43,6 +45,8 @@ This document defines formatting and style rules for CSS. It aims at improving c
 
 ##General Style Rules
 
+> Please also review our [**General Style Guide**](../general/README.md) along with this one.
+
 ###Protocol
 
 Omit the protocol from embedded resources.
@@ -87,7 +91,9 @@ To be clear, using ID attributes in your HTML can be a good thing and in some ca
 #header{ color: red; }
 
 /* Recommended */
-.header{ color: red; }
+.header { 
+    color: red;
+}
 ```
 
 **[[⬆]](#table-of-contents)**
@@ -307,10 +313,10 @@ Indent all block content, that is rules within rules as well as declarations, so
 ```css
 @media screen, projection {
 
-  html {
-    background: #fff;
-    color: #444;
-  }
+    html {
+        background: #fff;
+        color: #444;
+    }
 
 }
 ```
@@ -348,12 +354,12 @@ Always use a single space between property and value (but no space between prope
 ```css
 /* Not recommended */
 h3 {
-  font-weight:bold;
+    font-weight:bold;
 }
 
 /* Recommended */
 h3 {
-  font-weight: bold;
+    font-weight: bold;
 }
 ```
 
@@ -375,8 +381,8 @@ a:focus, a:active {
 h1,
 h2,
 h3 {
-  font-weight: normal;
-  line-height: 1.2;
+    font-weight: normal;
+    line-height: 1.2;
 }
 ```
 
@@ -390,12 +396,12 @@ Always put a line between rules.
 
 ```css
 html {
-  background: #fff;
+    background: #fff;
 }
 
 body {
-  margin: auto;
-  width: 50%;
+    margin: auto;
+    width: 50%;
 }
 ```
 
@@ -412,14 +418,14 @@ When quoting attribute selectors and property values, use single ('') rather tha
 @import url("//www.google.com/css/maia.css");
 
 html {
-  font-family: "open sans", arial, sans-serif;
+    font-family: "open sans", arial, sans-serif;
 }
 
 /* Recommended */
 @import url(//www.google.com/css/maia.css);
 
 html {
-  font-family: 'open sans', arial, sans-serif;
+    font-family: 'open sans', arial, sans-serif;
 }
 ```
 

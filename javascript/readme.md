@@ -1,3 +1,5 @@
+![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
+
 # JavaScript Style Guide
 
 *version 1.0.0*
@@ -644,10 +646,10 @@
 
 ##Whitespace
 
-  - Use soft tabs set to 2 spaces
+  - Use soft tabs set to 4 spaces
 
     ```javascript
-    // bad
+    // good
     function() {
     ∙∙∙∙var name;
     }
@@ -657,7 +659,7 @@
     ∙ var name;
     }
 
-    // good
+    // bad
     function() {
     ∙∙var name;
     }
@@ -686,22 +688,6 @@
       age: '1 year',
       breed: 'Bernese Mountain Dog'
     });
-    ```
-  - Place an empty newline at the end of the file.
-
-    ```javascript
-    // bad
-    (function(global) {
-      // ...stuff...
-    })(this);
-    ```
-
-    ```javascript
-    // good
-    (function(global) {
-      // ...stuff...
-    })(this);
-
     ```
 
   - Use indentation when making long method chains.
