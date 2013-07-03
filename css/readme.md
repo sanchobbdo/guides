@@ -1,5 +1,3 @@
-![Nucleo logo](http://dl.dropbox.com/u/2402696/external/elnucleo-logo.png)
-
 #CSS Style Guide
 
 *version 1.0.0*
@@ -39,7 +37,7 @@
 
 This document defines formatting and style rules for CSS. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files that use CSS. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
-> Please also review our [**HTML Style Guide**](http://github.com/NucleoDigital/guides/blob/master/html/README.md) along with this one.
+> Please also review our [**HTML Style Guide**](../html/README.md) along with this one.
 
 **[[⬆]](#table-of-contents)**
 
@@ -469,13 +467,13 @@ If possible, group style sheet sections together by using comments. Separate sec
 
 ##Contributors
 
-  - [View Contributors](https://github.com/NucleoDigital/guides/graphs/contributors)
+  - [View Contributors](../../graphs/contributors)
 
 ##License
 
 (The MIT License)
 
-Copyright (c) 2012 El Núcleo Digital
+Copyright (c) 2013 Sancho BBDO
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

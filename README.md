@@ -1,20 +1,18 @@
-![Nucleo logo](http://dl.dropbox.com/u/2402696/external/elnucleo-logo.png)
-
-##Welcome to *El Núcleo Digital* Styleguides
+##Welcome to *Sancho BBDO Digital* Styleguides
 
 The point of having style guidelines is to have a common vocabulary of coding so people can concentrate on what you’re saying rather than on how you’re saying it. We present global style rules here so people know the vocabulary, but local style is also important. If code you add to a file looks drastically different from the existing code around it, it throws readers out of their rhythm when they go to read it. Avoid this.
 
 Before reading this, you should have a general understanding for specificity, javascript, jQuery, HTML and CSS.
 
-If you're visiting from the internet, feel free to learn from this styles. This is a guide we use for our own apps internally at **El Núcleo Digital** inspired by other styleguides. We encourage you to set up one that works for your own team.
+If you're visiting from the internet, feel free to learn from this styles. This is a guide we use for our own apps internally at **Sancho BBDO** inspired by other styleguides. We encourage you to set up one that works for your own team.
 
 ##Guides:
 
-- ####[HTML Style Guide](https://github.com/NucleoDigital/guides/blob/master/html/README.md)
+- ####[HTML Style Guide](html/README.md)
 
-- ####[CSS Style Guide](https://github.com/NucleoDigital/guides/blob/master/css/readme.md)
+- ####[CSS Style Guide](css/readme.md)
 
-- ####[JavaScript Style Guide](https://github.com/NucleoDigital/guides/blob/master/javascript/readme.md)
+- ####[JavaScript Style Guide](javascript/readme.md)
 
 
 ##Linters:
@@ -23,7 +21,7 @@ A lint tool performs static analysis of source code and flags patterns that migh
 
 Below you can get the setting files for some code editors you can use.
 
-- [SublimeLinter](https://github.com/NucleoDigital/guides/blob/master/linters/SublimeLinter/SublimeLinter.sublime-settings)
+- [SublimeLinter](linters/SublimeLinter/SublimeLinter.sublime-settings)
 
 ##Tools:
 
