@@ -394,7 +394,7 @@ The opening brace should be on the same line as the last selector in a given rul
 #video {
     margin-top: 1em;
 }
-``
+```
 
 **[[⬆]](#table-of-contents)**
 
