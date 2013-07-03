@@ -65,7 +65,6 @@ Omitting the protocol—which makes the URL relative—prevents mixed content is
 
 **[[⬆]](#table-of-contents)**
 
-
 ##CSS Style Rules
 
 ###CSS validity
@@ -126,7 +125,6 @@ Using functional or generic names reduces the probability of unnecessary documen
 **[[⬆]](#table-of-contents)**
 
 ###ID and class name style
-
 
 Use ID and class names that are as short as possible but as long as necessary.
 
@@ -467,7 +465,7 @@ If possible, group style sheet sections together by using comments. Separate sec
 
 ##Contributors
 
-  - [View Contributors](../../graphs/contributors)
+  - [View Contributors](../../../graphs/contributors)
 
 ##License
 

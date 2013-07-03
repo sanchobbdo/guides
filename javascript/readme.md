@@ -130,7 +130,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##Strings
 
   - Use single quotes `''` for strings
@@ -162,7 +161,6 @@
     how Batman had anything to do \
     with this, you would get nowhere \
     fast.';
-
 
     // good
     var errorMessage = 'This is a super long error that ' +
@@ -217,7 +215,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Functions
 
@@ -274,8 +271,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
-
 ##Properties
 
   - Use dot notation when accessing properties.
@@ -309,7 +304,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Variables
 
@@ -419,7 +413,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##Hoisting
 
   - Variable declarations get hoisted to the top of their scope, their assignment does not.
@@ -478,7 +471,6 @@
         console.log('Flying');
       };
 
-
       // the same is true when the function name
       // is the same as the variable name.
       function example() {
@@ -508,8 +500,6 @@
   - For more information refer to [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting) by [Ben Cherry](http://www.adequatelygood.com/)
 
 **[[⬆]](#table-of-contents)**
-
-
 
 ##Conditional Expressions & Equality
 
@@ -558,7 +548,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##Blocks
 
   - Use braces with all multi-line blocks.
@@ -586,7 +575,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Comments
 
@@ -653,7 +641,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Whitespace
 
@@ -784,7 +771,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##Semicolons
 
   - **Yup.**
@@ -810,7 +796,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Type Coercion
 
@@ -864,7 +849,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Naming Conventions
 
@@ -951,7 +935,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##Accessors
 
   - Accessor functions for properties are not required
@@ -1004,7 +987,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Constructors
 
@@ -1070,7 +1052,6 @@
       .setHeight(20);
     ```
 
-
   - It's okay to write a custom toString() method, just make sure it works successfully and causes no side effects.
 
     ```javascript
@@ -1089,7 +1070,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Modules
 
@@ -1119,7 +1099,6 @@
     ```
 
 **[[⬆]](#table-of-contents)**
-
 
 ##jQuery
 
@@ -1178,13 +1157,11 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##ECMAScript 5 Compatability
 
   - Refer to [Kangax](https://twitter.com/kangax/)'s ES5 [compatibility table](http://kangax.github.com/es5-compat-table/)
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Testing
 
@@ -1198,7 +1175,6 @@
 
 **[[⬆]](#table-of-contents)**
 
-
 ##Performance
 
   - [String vs Array Concat](http://jsperf.com/string-vs-array-concat/2)
@@ -1209,7 +1185,6 @@
 **[[⬆]](#table-of-contents)**
 
 ##Resources
-
 
 **Read This**
 
@@ -1252,8 +1227,7 @@
 
 ##Contributors
 
-  - [View Contributors](../../graphs/contributors)
-
+  - [View Contributors](../../../graphs/contributors)
 
 ##License
 

@@ -441,7 +441,6 @@ When the user agent finds an img element in the HTML, it starts loading the imag
 
 **[[⬆]](#table-of-contents)**
 
-
 ##HTML Naming Conventions
 
 HTML pages should be saved with the .html extension. While this isn’t vital on every page, 90% of the time the home page of your site will have to be named *index.html* in order to be picked up as the default home page, so you may as well stick to this naming convention for all pages.
@@ -485,11 +484,9 @@ Always title a page the moment you create it, using a titling convention you hav
 ##References
 - Based on [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
-
 ##Contributors
 
-  - [View Contributors](../../graphs/contributors)
-
+  - [View Contributors](../../../graphs/contributors)
 
 ##License
 
