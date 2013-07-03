@@ -1,6 +1,6 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-#CSS Style Guide
+#CSS and SASS Style Guide
 
 *version 1.0.0*
 
@@ -26,11 +26,16 @@
 	- [Block content indentation](#block-content-indentation)
 	- [Declaration stops](#declaration-stops)
 	- [Property name stops](#property-name-stops)
+  - [Declaration Block Separation])(#declaration-block-separation)
 	- [Selector and declaration separation](#selector-and-declaration-separation)
 	- [Rule separation](#rule-separation)
 	- [CSS quotation marks](#css-quotation-marks)
 1. [**CSS Meta Rules**](#css-meta-rules)
 	- [Section comments](#section-comments)
+1. [**SASS Rules**](#sass-meta-rules)
+  - [List order](#list-order)
+  - [Maximum Nesting](#maximum-nesting)
+  - [Common rules](#common-rules)
 1. [**References**](#references)
 1. [**Contributors**](#contributors)
 1. [**License**](#license)
@@ -91,7 +96,7 @@ To be clear, using ID attributes in your HTML can be a good thing and in some ca
 #header{ color: red; }
 
 /* Recommended */
-.header { 
+.header {
     color: red;
 }
 ```
@@ -365,6 +370,34 @@ h3 {
 
 **[[⬆]](#table-of-contents)**
 
+###Declaration Block Separation
+
+Use a space between the last selector and the declaration block.
+
+Always use a single space between the last selector and the opening brace that begins the [declaration block](http://www.w3.org/TR/CSS21/syndata.html#rule-sets).
+
+The opening brace should be on the same line as the last selector in a given rule.
+
+```css
+/* Not recommended: missing space */
+#video{
+    margin-top: 1em;
+}
+
+/* Not recommended: unnecessary line break */
+#video
+{
+    margin-top: 1em;
+}
+
+/* Recommended */
+#video {
+    margin-top: 1em;
+}
+``
+
+**[[⬆]](#table-of-contents)**
+
 ###Selector and declaration separation
 
 Separate selectors and declarations by new lines.
@@ -455,6 +488,151 @@ If possible, group style sheet sections together by using comments. Separate sec
 
 **[[⬆]](#table-of-contents)**
 
+##SASS Rules
+
+###List order
+
+####List @extend(s) First
+Knowing right off the bat that this class inherits another whole set of rules from elsewhere is good.
+
+```css
+.weather {
+    @extends %module;
+    ...
+}
+```
+
+####List "Regular" Styles Next
+This visually separates the @extends and @includes as well as groups the @includes for easier reading. You might also want to make the call on separating user-authored @includes and vendor-provided @includes.
+
+```css
+.weather {
+    @extends %module;
+    background: LightCyan;
+    ..
+}
+```
+
+####List @include(s) Next
+
+```css
+.weather {
+    @extends %module;
+    background: LightCyan;
+    @include transition(all 0.3s ease-out);
+    ...
+}
+```
+
+####Nested Selectors Last
+Nothing goes after the nested stuff. And the same order as above within the nested selector would apply.
+
+```css
+.weather {
+    @extends %module;
+    background: LightCyan;
+    @include transition(all 0.3s ease);
+    > h3 {
+        border-bottom: 1px solid white;
+        @include transform(rotate(90deg));
+    }
+}
+```
+
+###Maximum Nesting
+
+####Three Levels Deep
+Chances are, if you're deeper than that, you're writing a crappy selector. Crappy in that it's too reliant on HTML structure (fragile), overly specific (too powerful), and not very reusable (not useful). It's also on the edge of being difficult to understand.
+
+```css
+.weather {
+    .cities {
+        li {
+            // no more!
+        }
+    }
+}
+```
+
+If you really want to use tag selectors because the class thing is getting too much for you, you may want to get pretty specific about it to avoid undesired cascading. And possibly even make use of extend so it has the benefit on the CSS side of re-usability.
+
+```css
+.weather
+    > h3 {
+        @extend %line-under;
+    }
+}
+```
+
+####50 Lines
+If a nested block of Sass is longer than that, there is a good chance it doesn't fit on one code editor screen, and starts becoming difficult to understand. The whole point of nesting is convenience and to assist in mental grouping. Don't use it if it hurts that.
+
+###Common rules
+
+####All Vendor Prefixes Use @mixins
+Vendor prefixes are a time-sensitive thing. As browsers update over time, the need for them will fall away. You can update mixins (or the libraries you use will update) to reflect those changes. Even if the mixin ends up being a one-liner, that's OK.
+
+The only time you wouldn't @mixin a vendor prefix is when it's super proprietary, unlikely to be standardized as is, and so including other vendor prefixes or the non-prefixed version is likely to cause more harm that good. Things like -webkit-line-clamp or -ms-content-zoom-chaining or things like that.
+
+####Global and Section-Specific Sass Files Are just Table of Contents
+In other words, no styles directly in them. Force yourself to keep all styles organized into component parts.
+
+####List Vendor/Global Dependancies First, Then Author Dependancies, Then Patterns, Then Parts
+So the "table of contents" things comes together like:
+
+```css
+/* Vendor Dependencies */
+@import "compass";
+
+/* Authored Dependencies */
+@import "global/colors";
+@import "global/mixins";
+
+/* Patterns */
+@import "global/tabs";
+@import "global/modals";
+
+/* Sections */
+@import "global/header";
+@import "global/footer";
+```
+
+The dependencies like Compass, colors, and mixins generate no compiled CSS at all, they are purely code dependancies. Listing the patterns next means that more specific "parts", which come after, have the power to override patterns without having a specificity war.
+
+####Partials are named _partial.scss
+This is a common naming convention that indicates this file isn't meant to be compiled by itself. It likely has dependancies that would make it impossible to compile by itself. Personally I like dashes in the "actual" filename though, like _dropdown-menu.scss.
+
+####In Deployment, Compile Compressed
+Live websites should only ever have compressed CSS.
+
+####Variablize All Common Numbers, and Numbers with Meaning
+If you find yourself using a number other than 0 or 100% over and over, it likely deserves a variable. Since it likely has meaning and controls consistency, being able to tweak it enmasse may be useful.
+
+If a number clearly has strong meaning, that's a use case for variablizing as well.
+
+```css
+$zHeader: 2000;
+$zOverlay: 5000;
+$zMessage: 5050;
+
+.header {
+    z-index: $zHeader;
+}
+.overlay {
+    z-index: $zOverlay;
+}
+.message {
+    z-index: $zMessage;
+}
+```
+
+Those numbers are probably in a separate file @import-ed as a dependency. That way you can keep track of your whole z-index stack in one place.
+
+####Variablize All Colors
+Except perhaps white and black. Chances are a color isn't one-off, and even if you think it is, once it's in a variable you might see uses for it elsewhere. Variations on that color can often be handled by the Sass color functions like lighten() and darken() - which make updating colors easier (change in one place, whole color scheme updates).
+
+**[[⬆]](#table-of-contents)**
+
 ##Resources
 **Other Styleguides**
 
@@ -468,6 +646,7 @@ If possible, group style sheet sections together by using comments. Separate sec
 ##References
 
 - Based on [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
+- SASS guide based on [CSS Tricks SASS Style Guide](http://css-tricks.com/sass-style-guide/)
 
 ##Contributors
 
