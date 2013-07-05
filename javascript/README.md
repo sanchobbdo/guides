@@ -6,6 +6,9 @@
 
 ##Table of Contents
 
+  1. [Introduction](#introduction)
+  1. [General Style Rules](#general-style-rules)
+  1. [Third party plugins](#third-party-plugins)
   1. [Types](#types)
   1. [Objects](#objects)
   1. [Arrays](#arrays)
@@ -34,6 +37,22 @@
   1. [References](#references)
   1. [Contributors](#contributors)
   1. [License](#license)
+
+##Introduction
+
+This document defines formatting and style rules for Javascript. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files that use Javascript. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
+
+**[[⬆]](#table-of-contents)**
+
+##General Style Rules
+
+> Please also review our [**General Style Guide**](../general/README.md) along with this one.
+
+##Third party plugins
+
+Use the lastest 1.x stable version of [jQuery](http://code.jquery.com/jquery.js).
+
+The [plugins directory](plugins-directory.md) contains a list of plugins tested by **Sancho Digital Team** which should be used if the project requires them.
 
 ##Types
 

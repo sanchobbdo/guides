@@ -10,14 +10,14 @@ If you're visiting from the internet, feel free to learn from this styles. This 
 
 ##Guides:
 
-1. ####[General Style Guide](general/README.md) 
+1. ####[General Style Guide](general/README.md)
 
 2. ####[HTML Style Guide](html/README.md)
 
 3. ####[CSS and SASS Style Guide](css/readme.md)
 
 4. ####[JavaScript Style Guide](javascript/readme.md)
-
+  - [Plugins directory](javascript/plugins-directory.md)
 
 ##Linters:
 
