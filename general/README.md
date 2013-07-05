@@ -7,11 +7,7 @@
 ##Table of Contents
 1. [**Introduction**](#introduction)
 1. [**General Formatting Rules**](#general-formatting-rules)
-	- [Indentation](#indentation)
-	- [Trailing whitespace](#trailing-whitespace)
-	- [Blank Lines](#blank-lines)
 1. [**General Meta Rules**](#general-meta-rules)
-	- [Encoding](#encoding)
 	- [Comments](#comments)
 	- [Action items](#action-items)
 	- [Versioning](#versioning)
@@ -22,94 +18,83 @@
 
 This document defines general purpose formatting and style rules. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
-Unless otherwise noted, projects must apply this guidelines and IDEs must be tuned up to follow them.
-
 **[[⬆]](#table-of-contents)**
 
 ##General Formatting Rules
 
-###Indentation
+Projects must apply the following formatting rules and IDEs should be tuned up to follow them.
 
-Indent by 4 spaces at a time.
+> Specific style guides can override some of this rules.
 
-Don’t use tabs or mix tabs and spaces for indentation.
+- Use UTF-8 without BOM
+- Use Unix line endings - LF, **not** CR (MacOS) or LF+CR (Windows)
+- Use 4 white spaces identation
 
-HTML
+  ```javascript
+  // Way to go:
+  if (indent === 4) {
+  ····var imHappy = true;
+  }
+  ```
 
-```html
-<ul>
-∙∙∙∙<li>Fantastic
-∙∙∙∙<li>Great
-</ul>
-```
+  ```javascript
+  // Avoid this:
+  ··var twoSpaces;
+  ···>var orTabs;
+  ```
 
-CSS
+- Remove trailing whitespaces
 
-```css
-.example {
-∙∙∙∙color: blue;
-}
-```
+  ```html
+  <!-- Bad, bad, bad -->
+  <div class="error">Trailing white spaces ahead</div>····
+  ```
 
-**[[⬆]](#table-of-contents)**
+- Use a **single** blank line to separate code blocks
 
-###Trailing whitespace
+  ```javascript
+  // This is cool:
+  var me = 'Hello';
+  ····
+  me = me + ' world!';
+  me = me + ' Wazzup?!';
+  ····
+  var world = 'I am fine';
+  ```
 
-Remove trailing white spaces.
+  ```javascript
+  // This is not:
+  var me = 'Hello';
+  ····
+  ····
+  ····
+  var world = 'Sorry, too many white lines, I can't hear you';
+  ```
 
-Trailing white spaces are unnecessary and can complicate diffs.
+- Leave a single blank line at the end of the file
 
-```html
-<!-- Not recommended -->
-<p>What?∙∙∙∙
+  ```javascript
+  // Don't:
+  endOfFile = true;
+  ····
+  ····
+  ····
+  ```
 
-<!-- Recommended -->
-<p>Yes please.
-```
+  ```javascript
+  // Don't:
+  endOfFile = true; // That's it, no blank lines
+  ```
 
-**[[⬆]](#table-of-contents)**
-
-###Blank lines
-
-Never use more than a single blank line to separate lines of codes.
-
-```html
-<!-- Wrong -->
-<h1>My title</h1>
-∙∙∙∙
-∙∙∙∙
-<p>My paragraph</p>
-
-<!-- Good -->
-<h1>My title</h1>
-∙∙∙∙
-<p>My paragraph</p>
-```
-
-Never use trailing blank lines at the end of the file.
-
-```html
-<!-- Bad -->
-</html>
-∙∙∙∙
-∙∙∙∙
-∙∙∙∙
-
-<!-- Yep. -->
-</html>
-```
+  ```javascript
+  // Do:
+  endOfFile = true;
+  ····
+  ```
 
 **[[⬆]](#table-of-contents)**
 
 ##General Meta Rules
-
-###Encoding
-
-Use UTF-8 (no BOM).
-
-Make sure your editor uses UTF-8 as character encoding, without a byte order mark.
-
-**[[⬆]](#table-of-contents)**
 
 ###Comments
 
@@ -134,8 +119,8 @@ Append action items after a colon as in ```TODO: action item```.
 ```html
 <!-- TODO: remove optional tags -->
 <ul>
-  <li>Apples</li>
-  <li>Oranges</li>
+    <li>Apples</li>
+    <li>Oranges</li>
 </ul>
 ```
 
@@ -150,7 +135,6 @@ How to number versions:
 Typically you will see a real version, such as “1.2.0”
 
 **[[⬆]](#table-of-contents)**
-
 
 ##Contributors
 
