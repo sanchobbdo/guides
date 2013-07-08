@@ -23,7 +23,7 @@ Every file must apply this rules except when overriden by:
 - Specific framework or tool style/formatting guides
 - Specific project rules (specially relevant for legacy projects)
 
-> **Note:** To keep homogeneity accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
+> **Note:** To keep consistency accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
 
 Tune up your IDE or text editor to follow this rules.
 
@@ -109,8 +109,7 @@ Tune up your IDE or text editor to follow this rules.
   - Should be consistent accross the project, even accross different filetypes
 
     ```html
-    <!-- This is awful in so many ways (track, song, mp3 and audio to refer
-         the same thing) -->
+    <!-- This is awful (track, song, mp3 and audio to refer the same thing) -->
 
     ····
 
@@ -164,9 +163,10 @@ Tune up your IDE or text editor to follow this rules.
 
     ····
     ```
+
 ##Comments Policy
 
-- Write self-documented expressive code instead of heavily documented one
+- Write self-explanatory expressive code instead of heavily documented one
 - Avoid writing comments to explain bad code. Refactor code to make it self-explanatory
 - Keep existing comments up-to-date
 - Write comments in **English**
