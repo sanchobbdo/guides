@@ -40,7 +40,7 @@ Projects must apply the following formatting rules and IDEs should be tuned up t
   ```javascript
   // Avoid this:
   ··var twoSpaces;
-  ···>var orTabs;
+  >   var orTabs;
   ```
 
 - Remove trailing whitespaces
@@ -68,7 +68,7 @@ Projects must apply the following formatting rules and IDEs should be tuned up t
   ····
   ····
   ····
-  var world = 'Sorry, too many white lines, I can't hear you';
+  var world = 'Sorry, too many white lines, I cannot hear you';
   ```
 
 - Leave a single blank line at the end of the file
