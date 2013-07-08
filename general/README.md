@@ -7,10 +7,9 @@
 ##Table of Contents
 1. [**Introduction**](#introduction)
 1. [**General Formatting Rules**](#general-formatting-rules)
-1. [**General Meta Rules**](#general-meta-rules)
-	- [Comments](#comments)
-	- [Action items](#action-items)
-	- [Versioning](#versioning)
+1. [**Comments Policy**](#comments-policy)
+	- [Annotations](#annotations)
+1. [**References**](#references)
 1. [**Contributors**](#contributors)
 1. [**License**](#license)
 
@@ -25,7 +24,7 @@ Every file must apply this rules except when overriden by:
 
 > **Note:** To keep homogeneity accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
 
-Tune up your IDE or text editor to follow this rules.↦
+Tune up your IDE or text editor to follow this rules.
 
 **[[⬆]](#table-of-contents)**
 
