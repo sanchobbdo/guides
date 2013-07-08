@@ -109,28 +109,19 @@ Tune up your IDE or text editor to follow this rules.
   - Should be consistent accross the project, even accross different filetypes
 
     ```html
-    <!-- This is awful (track, song, mp3 and audio to refer the same thing) -->
-
-    ····
-
-    <style>
-        .track {
-            ····
-        }
-    </style>
+    <!-- This is awful (song, mp3 and audio to refer the same thing) -->
 
     ····
 
     <script>
-        ····
         var song = $('.mp3');
         ····
     </script>
 
     ····
 
-    <a href="····" class="mp3 track">
-        <?php echo $audio->getFile(); ?>
+    <a href="····" class="mp3">
+        <?php echo $audio; ?>
     </a>
 
     ····
@@ -139,18 +130,7 @@ Tune up your IDE or text editor to follow this rules.
     ```html
     <!-- This is much nicer (track everywhere) -->
 
-    ····
-
-    <style>
-        .track {
-            ····
-        }
-    </style>
-
-    ····
-
     <script>
-        ····
         var track = $('.track');
         ····
     </script>
@@ -158,7 +138,7 @@ Tune up your IDE or text editor to follow this rules.
     ····
 
     <a href="····" class="track">
-        <?php echo $track->getName(); ?>
+        <?php echo $track; ?>
     </a>
 
     ····
