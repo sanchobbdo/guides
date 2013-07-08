@@ -99,30 +99,30 @@ Tune up your IDE or text editor to follow this rules.↦
 
 **[[⬆]](#table-of-contents)**
 
-##General Meta Rules
+##Comments Policy
 
-###Comments
+- Write self-documented expressive code instead of heavily documented one
+- Avoid writing comments to explain bad code. Refactor code to make it self-explanatory
+- Keep existing comments up-to-date
+- Write comments in **English**
+- Avoid commented lines of code
+- Avoid superflous comments
 
-Explain code as needed, where possible.
-
-Use comments to explain code: What does it cover, what purpose does it serve, why is respective solution used or preferred?
-
-> This item is optional as it is not deemed a realistic expectation to always demand fully documented code. Mileage may vary heavily for HTML and CSS code and depends on the project’s complexity.
+**TODO**: When to use comments
 
 **[[⬆]](#table-of-contents)**
 
-###Action items
+###Annotations
 
-Mark todos and action items with ```TODO```.
-
-Highlight todos by using the keyword ```TODO``` only, not other common formats like ```@@```.
-
-Append a contact (username or mailing list) in parentheses as with the format ```TODO(contact)```.
-
-Append action items after a colon as in ```TODO: action item```.
+- Mark todos and action items with ```TODO```
+- Avoid using other anotations like ```FIXME```, ```OPTIMIZE```, etc
+- Annotations should be written one line inmediately above the relevant code
+- Append a contact (username or email) in parentheses as with the format ```TODO(contact)```
+- Append action items after a colon as in ```TODO: action item```
+- If multiple lines are required to describe the problem, subsequent lines should be indented
 
 ```html
-<!-- TODO: remove optional tags -->
+<!-- TODO(joe.doe): remove optional tags -->
 <ul>
     <li>Apples</li>
     <li>Oranges</li>
@@ -131,7 +131,7 @@ Append action items after a colon as in ```TODO: action item```.
 
 **[[⬆]](#table-of-contents)**
 
-###Versioning
+##Versioning
 
 How to number versions:
 
@@ -140,6 +140,12 @@ How to number versions:
 Typically you will see a real version, such as “1.2.0”
 
 **[[⬆]](#table-of-contents)**
+
+##References
+
+- Comments Policy based on:
+  - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#comments)
+  - [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
 ##Contributors
 
