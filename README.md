@@ -14,9 +14,9 @@ If you're visiting from the internet, feel free to learn from this guidelines. T
 
 2. ####[HTML Guidelines](html/README.md)
 
-3. ####[CSS and SASS Guidelines](css/readme.md)
+3. ####[CSS and SASS Guidelines](css/README.md)
 
-4. ####[JavaScript Guidelines](javascript/readme.md)
+4. ####[JavaScript Guidelines](javascript/README.md)
   - [Plugins directory](javascript/plugins-directory.md)
 
 ##Linters:
