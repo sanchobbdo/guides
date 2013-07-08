@@ -7,6 +7,7 @@
 ##Table of Contents
 1. [**Introduction**](#introduction)
 1. [**General Formatting Rules**](#general-formatting-rules)
+1. [**General Style Guides**](#general-style-guides)
 1. [**Comments Policy**](#comments-policy)
 	- [Annotations](#annotations)
 1. [**References**](#references)
@@ -98,6 +99,71 @@ Tune up your IDE or text editor to follow this rules.
 
 **[[⬆]](#table-of-contents)**
 
+##General Style Guides
+
+- Eligable names (e.g. variables, functions, identifiers, attributes):
+  - Must be wrtitten in **English**
+  - Should be meaningful
+  - Should be as short as possible but as long as necessary
+  - Should be abbreviated only if it's a well known convention (e.g. ```nav``` instead of ```navigation```)
+  - Should be consistent accross the project, even accross different filetypes
+
+    ```html
+    <!-- This is awful in so many ways (track, song, mp3 and audio to refer
+         the same thing) -->
+
+    ····
+
+    <style>
+        .track {
+            ····
+        }
+    </style>
+
+    ····
+
+    <script>
+        ····
+        var song = $('.mp3');
+        ····
+    </script>
+
+    ····
+
+    <a href="····" class="mp3 track">
+        <?php echo $audio->getFile(); ?>
+    </a>
+
+    ····
+    ```
+
+    ```html
+    <!-- This is much nicer (track everywhere) -->
+
+    ····
+
+    <style>
+        .track {
+            ····
+        }
+    </style>
+
+    ····
+
+    <script>
+        ····
+        var track = $('.track');
+        ····
+    </script>
+
+    ····
+
+    <a href="····" class="track">
+        <?php echo $track->getName(); ?>
+    </a>
+
+    ····
+    ```
 ##Comments Policy
 
 - Write self-documented expressive code instead of heavily documented one
