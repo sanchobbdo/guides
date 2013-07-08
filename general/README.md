@@ -131,16 +131,6 @@ Tune up your IDE or text editor to follow this rules.↦
 
 **[[⬆]](#table-of-contents)**
 
-##Versioning
-
-How to number versions:
-
-1.3.2: major=1 minor=3 patch=2
-
-Typically you will see a real version, such as “1.2.0”
-
-**[[⬆]](#table-of-contents)**
-
 ##References
 
 - Comments Policy based on:
