@@ -19,9 +19,9 @@
 This document defines general purpose formatting and style rules. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
 Every file must apply this rules except when overriden by:
-    - Filetype specific guides
-    - Specific framework or tool style/formatting guides
-    - Specific project rules (specially relevant for legacy projects)
+- Filetype specific guides
+- Specific framework or tool style/formatting guides
+- Specific project rules (specially relevant for legacy projects)
 
 > **Note:** To keep homogeneity accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
 
