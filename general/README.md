@@ -25,7 +25,7 @@ Every file must apply this rules except when overriden by:
 
 > **Note:** To keep homogeneity accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
 
-Tune up your IDE or text editor to follow this rules.
+Tune up your IDE or text editor to follow this rules.↦
 
 **[[⬆]](#table-of-contents)**
 
@@ -45,7 +45,7 @@ Tune up your IDE or text editor to follow this rules.
   ```javascript
   // Avoid this:
   ··var twoSpaces;
-  >   var orTabs;
+  ↦   var orTabs;
   ```
 
 - Remove trailing whitespaces
