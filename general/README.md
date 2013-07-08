@@ -1,13 +1,13 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-#General Style Guide
+#General Guidelines
 
 *version 1.0.0*
 
 ##Table of Contents
 1. [**Introduction**](#introduction)
-1. [**General Formatting Rules**](#general-formatting-rules)
-1. [**General Style Guides**](#general-style-guides)
+1. [**Formatting Rules**](#formatting-rules)
+1. [**Style Rules**](#style-rules)
 1. [**Comments Policy**](#comments-policy)
 	- [Annotations](#annotations)
 1. [**References**](#references)
@@ -20,7 +20,7 @@ This document defines general purpose formatting and style rules. It aims at imp
 
 Every file must apply this rules except when overriden by:
 - Filetype specific guides
-- Specific framework or tool style/formatting guides
+- Specific framework or tool style/formatting guidelines
 - Specific project rules (specially relevant for legacy projects)
 
 > **Note:** To keep consistency accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
@@ -29,7 +29,7 @@ Tune up your IDE or text editor to follow this rules.
 
 **[[⬆]](#table-of-contents)**
 
-##General Formatting Rules
+##Formatting Rules
 
 - Use UTF-8 without BOM
 - Use Unix line endings - LF, **not** CR (MacOS) or LF+CR (Windows)
@@ -99,7 +99,7 @@ Tune up your IDE or text editor to follow this rules.
 
 **[[⬆]](#table-of-contents)**
 
-##General Style Guides
+##Style Rules
 
 - Eligable names (e.g. variables, functions, identifiers, attributes):
   - Must be wrtitten in **English**

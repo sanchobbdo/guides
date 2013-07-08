@@ -1,6 +1,6 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-# JavaScript Style Guide
+# JavaScript Guidelines
 
 *version 1.0.0*
 
@@ -46,7 +46,7 @@ This document defines formatting and style rules for Javascript. It aims at impr
 
 ##General Style Rules
 
-> Please also review our [**General Style Guide**](../general/README.md) along with this one.
+> Please also review our [**General Guidelines**](../general/README.md) along with this one.
 
 ##Third party plugins
 

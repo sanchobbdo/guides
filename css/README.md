@@ -1,6 +1,6 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-#CSS and SASS Style Guide
+#CSS and SASS Guidelines
 
 *version 1.0.0*
 
@@ -44,13 +44,13 @@
 
 This document defines formatting and style rules for CSS. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files that use CSS. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
-> Please also review our [**HTML Style Guide**](../html/README.md) along with this one.
+> Please also review our [**HTML Guidelines**](../html/README.md) along with this one.
 
 **[[⬆]](#table-of-contents)**
 
 ##General Style Rules
 
-> Please also review our [**General Style Guide**](../general/README.md) along with this one.
+> Please also review our [**General Guidelines**](../general/README.md) along with this one.
 
 ###Protocol
 

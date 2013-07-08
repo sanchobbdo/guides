@@ -1,6 +1,6 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-#HTML Style Guide
+#HTML Guidelines
 
 *version 1.0.0*
 
@@ -39,7 +39,7 @@
 
 This document defines formatting and style rules for HTML. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files that use HTML. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
-> Please also review our [**CSS Style Guide**](../css/readme.md) along with this one.
+> Please also review our [**CSS Guidelines**](../css/readme.md) along with this one.
 
 **[[⬆]](#table-of-contents)**
 
@@ -67,7 +67,7 @@ HTML
 
 ##General Formatting Rules
 
-> Please also review our [**General Style Guide**](../general/readme.md) along with this one.
+> Please also review our [**General Guidelines**](../general/readme.md) along with this one.
 
 ###Capitalization
 
