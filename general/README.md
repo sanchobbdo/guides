@@ -101,7 +101,7 @@ Tune up your IDE or text editor to follow this rules.
   ····
   ```
 
-- Limit lines to 80 characters
+- Limit lines to 80 characters ✍
 
 **[[⬆]](#table-of-contents)**
 
@@ -163,7 +163,7 @@ Tune up your IDE or text editor to follow this rules.
 
 **[[⬆]](#table-of-contents)**
 
-###Annotations
+###Annotations ✍
 
 - Mark todos and action items with ```TODO```
 - Use the following format: ```TODO(contact): action item``` where ```contact```
