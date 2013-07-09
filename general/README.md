@@ -9,21 +9,26 @@
 1. [**Formatting Rules**](#formatting-rules)
 1. [**Style Rules**](#style-rules)
 1. [**Comments Policy**](#comments-policy)
-	- [Annotations](#annotations)
+  - [Annotations](#annotations)
 1. [**References**](#references)
 1. [**Contributors**](#contributors)
 1. [**License**](#license)
 
 ##Introduction
 
-This document defines general purpose formatting and style rules. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
+This document defines general purpose formatting and style rules. It aims at
+improving collaboration, code quality, and enabling supporting
+infrastructure. It applies to raw, working files. Tools are free to
+obfuscate, minify, and compile as long as the general code quality is
+maintained.
 
-Every file must apply this rules except when overriden by:
-- Filetype specific guides
-- Specific framework or tool style/formatting guidelines
-- Specific project rules (specially relevant for legacy projects)
+Every file must apply this rules **except** when overridden by specific
+filetype, framework or project guidelines.
 
-> **Note:** To keep consistency accross the project's files, some rules can be overriden based on the main language or framework used - e.g. If a PHP framework's guide suggests using tabs instead of spaces, tabs should be used not only on the PHP files but on stylesheets and scripts as well.
+To keep consistency across the project, some rules can be globally overridden
+based on the main language or framework used - e.g. If a PHP framework's guide
+suggests using tabs instead of spaces, tabs should be used not only on the PHP
+files but on stylesheets, markup and scripts as well.
 
 Tune up your IDE or text editor to follow this rules.
 
@@ -33,7 +38,7 @@ Tune up your IDE or text editor to follow this rules.
 
 - Use UTF-8 without BOM
 - Use Unix line endings - LF, **not** CR (MacOS) or LF+CR (Windows)
-- Use 4 white spaces identation
+- Use 4 white spaces indentation
 
   ```javascript
   // Way to go:
@@ -48,14 +53,13 @@ Tune up your IDE or text editor to follow this rules.
   ↦   var orTabs;
   ```
 
-- Remove trailing whitespaces
+- Remove trailing white spaces
 
   ```html
-  <!-- Bad, bad, bad -->
   <div class="error">Trailing white spaces ahead</div>····
   ```
 
-- Use a **single** blank line to separate code blocks
+- Use a single blank line to separate code blocks
 
   ```javascript
   // This is cool:
@@ -97,21 +101,22 @@ Tune up your IDE or text editor to follow this rules.
   ····
   ```
 
+- Limit lines to 80 characters
+
 **[[⬆]](#table-of-contents)**
 
 ##Style Rules
 
-- Eligable names (e.g. variables, functions, identifiers, attributes):
-  - Must be wrtitten in **English**
+- Identifiers and arbitrary names
+  - Must be written in **English**
   - Should be meaningful
   - Should be as short as possible but as long as necessary
-  - Should be abbreviated only if it's a well known convention (e.g. ```nav``` instead of ```navigation```)
-  - Should be consistent accross the project, even accross different filetypes
+  - Should be abbreviated only if it's a well known convention (e.g. ```nav```
+    instead of ```navigation```)
+  - Should be consistent across the project, even across different filetypes
 
     ```html
     <!-- This is awful (song, mp3 and audio to refer the same thing) -->
-
-    ····
 
     <script>
         var song = $('.mp3');
@@ -144,27 +149,27 @@ Tune up your IDE or text editor to follow this rules.
     ····
     ```
 
+**[[⬆]](#table-of-contents)**
+
 ##Comments Policy
 
 - Write self-explanatory expressive code instead of heavily documented one
-- Avoid writing comments to explain bad code. Refactor code to make it self-explanatory
 - Keep existing comments up-to-date
 - Write comments in **English**
 - Avoid commented lines of code
-- Avoid superflous comments
+- Avoid superfluous comments
 
-**TODO**: When to use comments
+> **TODO**: When to use comments
 
 **[[⬆]](#table-of-contents)**
 
 ###Annotations
 
 - Mark todos and action items with ```TODO```
-- Avoid using other anotations like ```FIXME```, ```OPTIMIZE```, etc
-- Annotations should be written one line inmediately above the relevant code
-- Append a contact (username or email) in parentheses as with the format ```TODO(contact)```
-- Append action items after a colon as in ```TODO: action item```
-- If multiple lines are required to describe the problem, subsequent lines should be indented
+- Use the following format: ```TODO(contact): action item``` where ```contact```
+  is your username or email
+- Avoid using other annotations like ```FIXME```, ```OPTIMIZE```, etc
+- Annotations should be written one line immediately above the relevant code
 
 ```html
 <!-- TODO(joe.doe): remove optional tags -->
@@ -182,9 +187,13 @@ Tune up your IDE or text editor to follow this rules.
   - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#comments)
   - [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
+**[[⬆]](#table-of-contents)**
+
 ##Contributors
 
   - [View Contributors](../../../graphs/contributors)
+
+**[[⬆]](#table-of-contents)**
 
 ##License
 
@@ -192,8 +201,22 @@ Tune up your IDE or text editor to follow this rules.
 
 Copyright (c) 2013 Sancho BBDO
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+**[[⬆]](#table-of-contents)**
+
