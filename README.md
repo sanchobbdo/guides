@@ -1,38 +1,51 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-##Welcome to *Sancho BBDO Digital Team* Development Guidelines
+##Guías de desarrollo para el equipo digital de *Sancho BBDO*
 
-The point of having development guidelines is to have a common vocabulary of coding so people can concentrate on *what* you’re saying rather than on *how* you’re saying it. We present global development rules here so people know the vocabulary, but local rules are also important. If code you add to a file looks drastically different from the existing code around it, it throws readers out of their rhythm when they go to read it. Avoid this.
+El objetivo de estas guías es definir un vocabulario común que permite al equipo
+concentrarse en *qué* se está diciendo y no *cómo* se está diciendo.
 
-Before reading this, you should have a general understanding for specificity, javascript, jQuery, HTML and CSS.
+Estas guías las seguimos en **Sancho BBDO** para desarrollar nuestras
+aplicaciones y se basan en guías escritas por otras entidades y personas. Si
+eres un visitante casual siéntete libre de usarlas y aprender de ellas. Te
+alentamos a crear unas guías que se adapten a tu equipo.
 
-If you're visiting from the internet, feel free to learn from this guidelines. This is a guide we use for our own apps internally at **Sancho BBDO** inspired by other guidelines. We encourage you to set up one that works for your own team.
+##Guías:
 
-##Guides:
-
-1. ####[General Guidelines](general/README.md)
-
-2. ####[HTML Guidelines](html/README.md)
-
-3. ####[CSS and SASS Guidelines](css/README.md)
-
-4. ####[JavaScript Guidelines](javascript/README.md)
-  - [Plugins directory](javascript/plugins-directory.md)
+1. [Guía general](general/README.md)
+1. [Guía HTML](html/README.md)
+1. [Guía CSS y SASS](css/README.md)
+1. [Guía JavaScript](javascript/README.md)
+  - [Directorio de *plugins*](javascript/plugins-directory.md)
 
 ##Linters:
 
-A lint tool performs static analysis of source code and flags patterns that might be errors or otherwise cause problems for the developer.
+Las herramientas *lint* buscan errores y problemas potenciales dentro de tu
+código. También imponen mejores prácticas y verifican que el desarrollo sea
+compatible con las plataformas soportadas.
 
-Below you can get the settings files you can use on your projects:
+Puedes utilizar los siguientes archivos de configuración en tus proyectos:
 
-- [JS Hint File (.jshintrc)](linters/.jshintrc)
-- [CSS Lint File (.csslintrc)](linters/.csslintrc)
+- [JS Hint (.jshintrc)](linters/.jshintrc)
+- [CSS Lint (.csslintrc)](linters/.csslintrc)
 
-##Tools:
+##Herramientas:
 
-- [JS Hint](http://www.jshint.com/): Is a tool to detect errors and potential problems in JavaScript code and can be used to enforce coding coventions.
-- [CSS Lint](http://csslint.net/): This tool points out problems with your CSS code. It does basic syntax checking as well as applying a set of rules to the code that look for problematic patterns or signs of inefficiency.
-- [HTML Inspector](https://github.com/philipwalton/html-inspector): It is a code quality tool to help you and your team write better markup. It's written in JavaScript and runs in the browser.
-- [jsBeutifier](http://jsbeautifier.org/): This little beautifier will reformat and reindent bookmarklets, ugly JavaScript.
-- [CSS Compressor](http://www.cssdrive.com/index.php/main/csscompressor/): Use this utility to compress your CSS to increase loading speed and save on bandwidth as well.
-- [Sprite Cow](http://www.spritecow.com/): This site helps you get the background-position, width and height of sprites within a spritesheet as a nice bit of copyable css.
+- [JS Hint][jshint]: Una herramienta para detectar errores y problemas
+  potenciales en código JavaScript.
+- [CSS Lint][csslint]: Esta herramienta señala problemas en tu código CSS.
+- [HTML Inspector][html-inspector]: Una herramienta de calidad de código qué te
+  ayuda a escribir mejor *markup*.
+- [jsBeutifier][jsbeautifier]: Este embellecedor vuelve a formatear e indentar
+  tu código Javascript.
+- [CSS Compressor][csscompressor]: Usa esta herramienta para comprimir tu CSS
+  para aumentar la velocidad de descarga y ahorrar ancho de banda.
+- [Sprite Cow][spritecow]: Esta herramienta te ayuda a obtener la posición,
+  ancho y alto de *sprites* dentro de un *spritesheet*.
+
+[jshint]: http://jshint.com
+[csslint]: http://csslint.net
+[html-inspector]: https://github.com/philipwalton/html-inspector
+[jsbeautifier]: http://jsbeautifier.org
+[csscompressor]: http://www.cssdrive.com/index.php/main/csscompressor
+[spritecow]: (http://www.spritecow.com
