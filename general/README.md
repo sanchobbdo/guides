@@ -6,8 +6,9 @@
 1. [**Introducción**](#introducción)
 1. [**Reglas de formato**](#reglas-de-formato)
 1. [**Reglas de estilo**](#reglas-de-estilo)
-1. [**Póliticas de comentarios**](#políticas-de-comentarios)
-  - [Anotaciones](#anotaciones)
+1.1 [identificadores](#identificadores)
+1.1 [Uso de comentarios](#uso-de-comentarios)
+1.1.1 [Uso de anotaciones](#uso-de-anotaciones)
 1. [**Referencias**](#referencias)
 1. [**Contribuidores**](#contribuidores)
 1. [**Licencia**](#licencia)
@@ -103,13 +104,14 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 ##Reglas de estilo
 
-- Los identificadores y nombres arbitrarios
-  - Tienen que escribirse en **inglés**
-  - Deben ser significativos
-  - Deben ser tan cortos cómo sea posible y tan largos cómo sea necesario
-  - Pueden ser abreviados sólo si se utiliza una convención conocida (p. ej.
-    ```nav``` cómo abreviación de ```navigation```)
-  - Deben ser consistentes a través del proyecto, incluso a través de archivos
+###Identificadores
+
+  - Nombra identificadores en **inglés**
+  - Usa nombres significativos
+  - Usa nombres tan cortos cómo sea posible y tan largos cómo sea necesario
+  - Usa abreviaciones sólo si utilizas una convención conocida (p. ej. ```nav```
+    cómo abreviación de ```navigation```)
+  - Usa nombres consistentes a través del proyecto, incluso a través de archivos
     de diferentes tipos
 
     ```html
@@ -148,9 +150,10 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 **[[⬆]](#tabla-de-contenidos)**
 
-##Políticas de comentarios
+###Uso de comentarios
 
-- Escribe código qué se explique a sí mismo en vez de código documentado
+- Escribe código qué se explique a sí mismo en vez de código que necesite
+  documentación
 - Manten actualizados los comentarios existentes
 - Escribe comentarios en **inglés**
 - Evita comentarios superfluo
@@ -159,7 +162,7 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 **[[⬆]](#tabla-de-contenidos)**
 
-###Anotaciones
+####Uso de anotaciones
 
 - Marca acciones pendientes con ```TODO```
 - Utiliza el formato ```TODO(contacto): acción pendiente``` donde ```contacto```
