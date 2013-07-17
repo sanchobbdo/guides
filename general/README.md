@@ -3,10 +3,10 @@
 #Guía general
 
 ##Tabla de contenidos
-1. [**Introducción**](#introduccion)
+1. [**Introducción**](#introducción)
 1. [**Reglas de formato**](#reglas-de-formato)
-1. [**Reglas de estilo**](#reglas de estilo)
-1. [**Póliticas de comentarios**](#politicas-de-comentarios)
+1. [**Reglas de estilo**](#reglas-de-estilo)
+1. [**Póliticas de comentarios**](#políticas-de-comentarios)
   - [Anotaciones](#anotaciones)
 1. [**Referencias**](#referencias)
 1. [**Contribuidores**](#contribuidores)
@@ -14,22 +14,21 @@
 
 ##Introducción
 
-Este documento define reglas generales de formato y estilo que debes aplicar al
+Este documento define reglas generales de formato y estilo que debes aplicar a
 código fuente. Su objetivo es mejorar la colaboración y la calidad del código.
 
-Aplica estas reglas **excepto** cuando una guía de tipo de archivo, *framework*
+Aplica estas reglas a menos qué una guía de tipo de archivo, *framework*
 o proyecto defina reglas diferentes.
 
-Algunas reglas definidas por el lenguaje de programación principal o el
-*framework* utilizado pueden aplicarse en otros tipos de archivo con el fin de
-mantener consistencia a través del proyecto - p. ej. si la guía de un
-*framework* PHP sugiere utilizar tabulaciones y no espacios, debes utilizar
-tabulaciones, no sólo en código PHP, sino también en hojas de estilo, *markups*
-y *scripts*.
+Algunas reglas definidas por el lenguaje de programación principal o *framework*
+utilizado pueden sobreescribir las reglas generales con el fin de mantener
+consistencia a través del proyecto - p. ej. si la guía de un *framework* PHP
+sugiere utilizar tabulaciones, debes utilizar tabulaciones no sólo en código PHP
+sino también en hojas de estilo, *markups* y *scripts*.
 
 Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ##Reglas de formato
 
@@ -100,11 +99,11 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 - Limita las lineas a 80 caracteres de longitud
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ##Reglas de estilo
 
-- Identificadores y nombres arbitrarios
+- Los identificadores y nombres arbitrarios
   - Tienen que escribirse en **inglés**
   - Deben ser significativos
   - Deben ser tan cortos cómo sea posible y tan largos cómo sea necesario
@@ -147,26 +146,26 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
     ····
     ```
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ##Políticas de comentarios
 
 - Escribe código qué se explique a sí mismo en vez de código documentado
 - Manten actualizados los comentarios existentes
-- Escribe los comentarios en **inglés**
+- Escribe comentarios en **inglés**
 - Evita comentarios superfluo
 
 > **TODO**: Cuando escribir comentarios
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ###Anotaciones
 
 - Marca acciones pendientes con ```TODO```
 - Utiliza el formato ```TODO(contacto): acción pendiente``` donde ```contacto```
   es tu nombre de usuario o correo electrónico
-- Escribe las anotaciones arriba del código relevante
-- Escribe las anotaciones en **inglés**
+- Escribe anotaciones arriba del código relevante
+- Escribe anotaciones en **inglés**
 
 ```html
 <!-- TODO(joe.doe): remove optional tags -->
@@ -176,7 +175,7 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 </ul>
 ```
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ##Referencias
 
@@ -184,16 +183,16 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
   - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#comments)
   - [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ##Contribuidores
 
   - [Ver contribuidores](../../../graphs/contributors)
 
-**[[⬆]](#table-of-contents)**
+**[[⬆]](#tabla-de-contenidos)**
 
 ##Licencia
 
-[http://i.creativecommons.org/l/by/3.0/88x31.png](http://creativecommons.org/licenses/by/3.0/deed.es_CO)
+[![Creative Commons Atribución 3.0 Unported](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/deed.es_CO)
 
 [Creative Commons Atribución 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.es_CO) Sancho BBDO
