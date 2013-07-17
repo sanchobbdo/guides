@@ -6,9 +6,9 @@
 1. [**Introducción**](#introducción)
 1. [**Reglas de formato**](#reglas-de-formato)
 1. [**Reglas de estilo**](#reglas-de-estilo)
-  1. [identificadores](#identificadores)
+  1. [Identificadores](#identificadores)
   1. [Uso de comentarios](#uso-de-comentarios)
-    1. [Uso de anotaciones](#uso-de-anotaciones)
+  1. [Uso de anotaciones](#uso-de-anotaciones)
 1. [**Referencias**](#referencias)
 1. [**Contribuidores**](#contribuidores)
 1. [**Licencia**](#licencia)
@@ -162,7 +162,7 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 **[[⬆]](#tabla-de-contenidos)**
 
-####Uso de anotaciones
+###Uso de anotaciones
 
 - Marca acciones pendientes con ```TODO```
 - Utiliza el formato ```TODO(contacto): acción pendiente``` donde ```contacto```
