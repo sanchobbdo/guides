@@ -1,89 +1,86 @@
-![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
+![Sancho BBDO](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-#General Guidelines
+#Guía general
 
-*version 1.0.0*
+##Tabla de contenidos
+1. [**Introducción**](#introduccion)
+1. [**Reglas de formato**](#reglas-de-formato)
+1. [**Reglas de estilo**](#reglas de estilo)
+1. [**Póliticas de comentarios**](#politicas-de-comentarios)
+  - [Anotaciones](#anotaciones)
+1. [**Referencias**](#referencias)
+1. [**Contribuidores**](#contribuidores)
+1. [**Licencia**](#licencia)
 
-##Table of Contents
-1. [**Introduction**](#introduction)
-1. [**Formatting Rules**](#formatting-rules)
-1. [**Style Rules**](#style-rules)
-1. [**Comments Policy**](#comments-policy)
-  - [Annotations](#annotations)
-1. [**References**](#references)
-1. [**Contributors**](#contributors)
-1. [**License**](#license)
+##Introducción
 
-##Introduction
+Este documento define reglas generales de formato y estilo que debes aplicar al
+código fuente. Su objetivo es mejorar la colaboración y la calidad del código.
 
-This document defines general purpose formatting and style rules. It aims at
-improving collaboration, code quality, and enabling supporting
-infrastructure. It applies to raw, working files. Tools are free to
-obfuscate, minify, and compile as long as the general code quality is
-maintained.
+Aplica estas reglas **excepto** cuando una guía de tipo de archivo, *framework*
+o proyecto defina reglas diferentes.
 
-Every file must apply this rules **except** when overridden by specific
-filetype, framework or project guidelines.
+Algunas reglas definidas por el lenguaje de programación principal o el
+*framework* utilizado pueden aplicarse en otros tipos de archivo con el fin de
+mantener consistencia a través del proyecto - p. ej. si la guía de un
+*framework* PHP sugiere utilizar tabulaciones y no espacios, debes utilizar
+tabulaciones, no sólo en código PHP, sino también en hojas de estilo, *markups*
+y *scripts*.
 
-To keep consistency across the project, some rules can be globally overridden
-based on the main language or framework used - e.g. If a PHP framework's guide
-suggests using tabs instead of spaces, tabs should be used not only on the PHP
-files but on stylesheets, markup and scripts as well.
-
-Tune up your IDE or text editor to follow this rules.
+Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 **[[⬆]](#table-of-contents)**
 
-##Formatting Rules
+##Reglas de formato
 
-- Use UTF-8 without BOM
-- Use Unix line endings - LF, **not** CR (MacOS) or LF+CR (Windows)
-- Use 4 white spaces indentation
+- Usa UTF-8 sin BOM
+- Usa terminaciones de línea Unix - LF, **no** CR (MacOS) o LF+CR (Windows)
+- Usa indentaciones a 4 espacios
 
   ```javascript
-  // Way to go:
+  // Camino a seguir:
   if (indent === 4) {
   ····var imHappy = true;
   }
   ```
 
   ```javascript
-  // Avoid this:
+  // Evita esto:
   ··var twoSpaces;
   ↦   var orTabs;
   ```
 
-- Remove trailing white spaces
+- Elimina espacios en blanco al final de las lineas
 
   ```html
-  <div class="error">Trailing white spaces ahead</div>····
+  <div class="error">Acá vienen los espacios rezagados</div>····
   ```
 
-- Use a single blank line to separate code blocks
+- Usa una línea vacía para separar bloques de código
 
   ```javascript
-  // This is cool:
-  var me = 'Hello';
+  // Esto está bien:
+  var me = 'Hola';
   ····
-  me = me + ' world!';
-  me = me + ' Wazzup?!';
+  me = me + ' mundo!';
+  me = me + ' Qué ha pasado?!';
   ····
-  var world = 'I am fine';
+  var world = 'Todo está bien';
   ```
 
   ```javascript
-  // This is not:
-  var me = 'Hello';
+  // Esto no lo está:
+  var me = 'Hola';
   ····
   ····
   ····
-  var world = 'Sorry, too many white lines, I cannot hear you';
+  var world = 'Hay demasiadas líneas y no te puedo escuchar.';
   ```
 
-- Leave a single blank line at the end of the file
+- Deja una línea vacía al final del archivo
 
   ```javascript
-  // Don't:
+  // No lo hagas:
   endOfFile = true;
   ····
   ····
@@ -91,32 +88,33 @@ Tune up your IDE or text editor to follow this rules.
   ```
 
   ```javascript
-  // Don't:
-  endOfFile = true; // That's it, no blank lines
+  // No lo hagas:
+  endOfFile = true; // Eso es todo, no hay más líneas
   ```
 
   ```javascript
-  // Do:
+  // Hazlo:
   endOfFile = true;
   ····
   ```
 
-- Limit lines to 80 characters ✍
+- Limita las lineas a 80 caracteres de longitud
 
 **[[⬆]](#table-of-contents)**
 
-##Style Rules
+##Reglas de estilo
 
-- Identifiers and arbitrary names
-  - Must be written in **English**
-  - Should be meaningful
-  - Should be as short as possible but as long as necessary
-  - Should be abbreviated only if it's a well known convention (e.g. ```nav```
-    instead of ```navigation```)
-  - Should be consistent across the project, even across different filetypes
+- Identificadores y nombres arbitrarios
+  - Tienen que escribirse en **inglés**
+  - Deben ser significativos
+  - Deben ser tan cortos cómo sea posible y tan largos cómo sea necesario
+  - Pueden ser abreviados sólo si se utiliza una convención conocida (p. ej.
+    ```nav``` cómo abreviación de ```navigation```)
+  - Deben ser consistentes a través del proyecto, incluso a través de archivos
+    de diferentes tipos
 
     ```html
-    <!-- This is awful (song, mp3 and audio to refer the same thing) -->
+    <!-- Esto es feo (song, mp3 y audio para referirse a lo mismo) -->
 
     <script>
         var song = $('.mp3');
@@ -133,7 +131,7 @@ Tune up your IDE or text editor to follow this rules.
     ```
 
     ```html
-    <!-- This is much nicer (track everywhere) -->
+    <!-- Esto es muchisimo mejor (track para todo) -->
 
     <script>
         var track = $('.track');
@@ -151,72 +149,51 @@ Tune up your IDE or text editor to follow this rules.
 
 **[[⬆]](#table-of-contents)**
 
-##Comments Policy
+##Políticas de comentarios
 
-- Write self-explanatory expressive code instead of heavily documented one
-- Keep existing comments up-to-date
-- Write comments in **English**
-- Avoid commented lines of code
-- Avoid superfluous comments
+- Escribe código qué se explique a sí mismo en vez de código documentado
+- Manten actualizados los comentarios existentes
+- Escribe los comentarios en **inglés**
+- Evita comentarios superfluo
 
-> **TODO**: When to use comments
+> **TODO**: Cuando escribir comentarios
 
 **[[⬆]](#table-of-contents)**
 
-###Annotations ✍
+###Anotaciones
 
-- Mark todos and action items with ```TODO```
-- Use the following format: ```TODO(contact): action item``` where ```contact```
-  is your username or email
-- Avoid using other annotations like ```FIXME```, ```OPTIMIZE```, etc
-- Annotations should be written one line immediately above the relevant code
+- Marca acciones pendientes con ```TODO```
+- Utiliza el formato ```TODO(contacto): acción pendiente``` donde ```contacto```
+  es tu nombre de usuario o correo electrónico
+- Escribe las anotaciones arriba del código relevante
+- Escribe las anotaciones en **inglés**
 
 ```html
 <!-- TODO(joe.doe): remove optional tags -->
 <ul>
-    <li>Apples</li>
-    <li>Oranges</li>
+    <li>Manzanas</li>
+    <li>Naranjas</li>
 </ul>
 ```
 
 **[[⬆]](#table-of-contents)**
 
-##References
+##Referencias
 
-- Comments Policy based on:
+- Políticas de comentarios basadas en:
   - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#comments)
   - [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 
 **[[⬆]](#table-of-contents)**
 
-##Contributors
+##Contribuidores
 
-  - [View Contributors](../../../graphs/contributors)
-
-**[[⬆]](#table-of-contents)**
-
-##License
-
-(The MIT License)
-
-Copyright (c) 2013 Sancho BBDO
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  - [Ver contribuidores](../../../graphs/contributors)
 
 **[[⬆]](#table-of-contents)**
 
+##Licencia
+
+[http://i.creativecommons.org/l/by/3.0/88x31.png](http://creativecommons.org/licenses/by/3.0/deed.es_CO)
+
+[Creative Commons Atribución 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.es_CO) Sancho BBDO
