@@ -32,12 +32,12 @@ Puedes utilizar los siguientes archivos de configuración en tus proyectos:
 
 ##Herramientas:
 
-- [JS Hint][jshint]: Un **linter** para JavaScript
-- [CSS Lint][csslint]: Un **linter** para CSS
-- [HTML Inspector][html-inspector]: Analiza la calidad de tus **markups**
-- [jsBeutifier][jsbeautifier]: Te ayuda a re-formatear y re-indentar tus **scripts**
+- [JS Hint][jshint]: Un *linter* para JavaScript
+- [CSS Lint][csslint]: Un *linter* para CSS
+- [HTML Inspector][html-inspector]: Analiza la calidad de tus *markups*
+- [jsBeutifier][jsbeautifier]: Te ayuda a re-formatear y re-indentar tus *scripts*
 - [CSS Compressor][csscompressor]: Comprime tus hojas de estilo
-- [Sprite Cow][spritecow]: Genera la imagen y código CSS de tus **sprites**
+- [Sprite Cow][spritecow]: Genera la imagen y código CSS de tus *sprites*
 
 [jshint]: http://jshint.com
 [csslint]: http://csslint.net
