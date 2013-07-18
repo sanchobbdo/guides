@@ -16,16 +16,17 @@
 ##Introducción
 
 Este documento define reglas generales de formato y estilo que debes aplicar a
-código fuente. Su objetivo es mejorar la colaboración y la calidad del código.
+tu código fuente. Su objetivo es mejorar la colaboración y la calidad del
+código.
 
-Aplica estas reglas a menos qué una guía de tipo de archivo, *framework*
-o proyecto defina reglas diferentes.
+Sigue estas reglas a menos qué una guía de tipo de archivo, *framework* o
+proyecto defina reglas diferentes.
 
-Algunas reglas definidas por el lenguaje de programación principal o *framework*
-utilizado pueden sobreescribir las reglas generales con el fin de mantener
-consistencia a través del proyecto - p. ej. si la guía de un *framework* PHP
-sugiere utilizar tabulaciones, debes utilizar tabulaciones no sólo en código PHP
-sino también en hojas de estilo, *markups* y *scripts*.
+Algunas reglas definidas por el lenguaje de programación principal o
+*framework* utilizado pueden sobreescribir reglas generales con el fin de
+mantener consistencia a través del proyecto - p. ej. si la guía de un
+*framework* PHP exige utilizar tabulaciones, debes hacerlo no sólo en código
+PHP sino también en hojas de estilo, *markups* y *scripts*.
 
 Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
@@ -183,8 +184,11 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 ##Referencias
 
 - Políticas de comentarios basadas en:
-  - [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide#comments)
-  - [Google HTML/CSS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
+  - [The Ruby Style Guide][ruby-style-guide]
+  - [Google HTML/CSS Style Guide][google-style-guide]
+
+[ruby-style-guide]: https://github.com/bbatsov/ruby-style-guide#comments
+[google-style-guide]: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 
 **[[⬆]](#tabla-de-contenidos)**
 
@@ -196,6 +200,6 @@ Configura tu IDE o editor de texto de acuerdo a las siguientes reglas.
 
 ##Licencia
 
-[![Creative Commons Atribución 3.0 Unported](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/deed.es_CO)
+[Creative Commons Atribución 3.0 Unported][cc] · Sancho BBDO · 2013
 
-[Creative Commons Atribución 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.es_CO) Sancho BBDO
+[cc]: http://creativecommons.org/licenses/by/3.0/deed.es_CO
