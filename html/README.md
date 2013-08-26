@@ -39,7 +39,7 @@
 
 This document defines formatting and style rules for HTML. It aims at improving collaboration, code quality, and enabling supporting infrastructure. It applies to raw, working files that use HTML. Tools are free to obfuscate, minify, and compile as long as the general code quality is maintained.
 
-> Please also review our [**CSS Guidelines**](../css/readme.md) along with this one.
+> Please also review our [**CSS Guidelines**](../css/README.md) along with this one.
 
 **[[⬆]](#table-of-contents)**
 
