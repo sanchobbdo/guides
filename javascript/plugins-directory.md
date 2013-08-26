@@ -6,6 +6,8 @@ Below are some of the javascript plugins, tested by **Sancho BBDO Digital Team**
 
 ##Table of Contents
 1. [**Interface**](#interface)
+1. [**Scroll**](#scroll)
+1. [**Preload**](#preload)
 1. [**Inputs**](#inputs)
 	- [Time and date](#time-and-date)
 	- [Custom Style](#custom-style)
@@ -22,6 +24,20 @@ Sticky is a jQuery plugin that gives you the ability to make any element on your
 
 ### [Packery](http://packery.metafizzy.co/)
 Packery is a JavaScript layout library that uses a bin-packing algorithm. This is a fancy way of saying “it fills empty gaps.” Packery layouts can be intelligently ordered or organically wild. Elements can be stamped in place, fit in an ideal spot, or dragged around.
+
+# Scroll
+#### [jQuery Waypoints](http://imakewebthings.github.com/jquery-waypoints/)
+Waypoints is a jQuery plugin that makes it easy to execute a function whenever you scroll to an element.
+
+#### [Sticky](http://stickyjs.com/)
+Sticky is a jQuery plugin that gives you the ability to make any element on your page always stay visible.
+
+# Preload
+#### [jPreloader v2](http://www.inwebson.com/jquery/jpreloader-a-preloading-screen-to-preload-images/)
+jPreLoader is a jQuery plugin to create preloading screen to preload all the images in website and attached with customizable splash screen
+
+#### [imagesloaded](http://desandro.github.io/imagesloaded/)
+Detect when images have been loaded.
 
 # Inputs
 ### Time and Date
@@ -51,6 +67,9 @@ gmaps.js allows you to use the potential of Google Maps in a simple way.
 No more extensive documentation or large amount of code.
 
 # Other
+#### [PathJS](https://github.com/mtrpcic/pathjs)
+PathJS is a lightweight, client-side routing library that allows you to create "single page" applications using Hashbangs and/or HTML5 pushState.
+
 #### [Spectragram.js](http://lab.adrianquevedo.com/jquery-spectragram/)
 An easy jQuery plugin for Instagram API to fetch and display user, popular or tags photo feeds inside your web application or site.
 
