@@ -1,6 +1,6 @@
 ![image](https://dl.dropboxusercontent.com/u/2402696/external/logo-sancho.png)
 
-##Welcome to *Sancho BBDO Digital Team* Development Guidelines
+##Digital Team - Development Guidelines
 
 The point of having development guidelines is to have a common vocabulary of coding so people can concentrate on *what* you’re saying rather than on *how* you’re saying it. We present global development rules here so people know the vocabulary, but local rules are also important. If code you add to a file looks drastically different from the existing code around it, it throws readers out of their rhythm when they go to read it. Avoid this.
 
