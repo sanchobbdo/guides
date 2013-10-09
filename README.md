@@ -19,6 +19,8 @@ If you're visiting from the internet, feel free to learn from this guidelines. T
 4. ####[JavaScript Guidelines](javascript/README.md)
   - [Plugins directory](javascript/plugins-directory.md)
 
+5. ####[Git Commit Message Guidelines](git-messages/README.md)
+
 ##Linters:
 
 A lint tool performs static analysis of source code and flags patterns that might be errors or otherwise cause problems for the developer.
